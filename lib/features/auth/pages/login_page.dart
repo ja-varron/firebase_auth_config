@@ -42,6 +42,10 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Text("Sign in", style: TextStyle(fontSize: 28),),
+
+                const SizedBox(height: 15,),
+
                 Column(
                   children: [
                     Row(
